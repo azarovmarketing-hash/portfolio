@@ -25,7 +25,7 @@ export default function Home() {
           <div className="hero__grid">
             <p className="hero__bio reveal" data-d="1">
               I design <b>SaaS products and complex interfaces</b> — and I make them
-              move the numbers. Nine years across the US and Russia growing
+              move the numbers. Nine years growing
               <b> revenue, conversion, and leads</b>, with a UX-analyst's eye for metrics
               and a background in Search Experience Optimization.
             </p>
@@ -58,7 +58,7 @@ export default function Home() {
             <div className="stats reveal">
               <div className="stat">
                 <div className="stat__num"><span data-count="9">0</span></div>
-                <div className="stat__label">Years designing across the US &amp; Russia</div>
+                <div className="stat__label">Years in product &amp; UX design</div>
               </div>
               <div className="stat">
                 <div className="stat__num"><span className="sym">+</span><span data-count="22">0</span><span className="sym">%</span></div>
@@ -153,7 +153,7 @@ export default function Home() {
                 <span className="eyebrow">02 — Experience</span>
                 <h2 style={{ marginTop: 18 }}>Nine years, four teams, one focus.</h2>
               </div>
-              <p className="sec-head__aside reveal" data-d="1">From front-end and web design in Russia to leading a product-design team in a US-facing CRM.</p>
+              <p className="sec-head__aside reveal" data-d="1">From front-end and web design to leading a product-design team in a B2B SaaS CRM.</p>
             </div>
 
             <div className="exp">
