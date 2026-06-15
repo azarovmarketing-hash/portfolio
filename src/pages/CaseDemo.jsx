@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { asset } from '../lib/asset.js'
 import CaseShell from '../components/CaseShell.jsx'
 import { usePageEffects } from '../hooks.js'
 
@@ -25,7 +26,7 @@ export default function CaseDemo() {
       </section>
 
       <figure className="case-cover container reveal">
-        <img src="/img/d-extensions.png" alt="The redesigned theme demo with an extensions tab and add-to-cart" />
+        <img src={asset('img/d-extensions.png')} alt="The redesigned theme demo with an extensions tab and add-to-cart" />
       </figure>
 
       <div className="container">
@@ -75,7 +76,7 @@ export default function CaseDemo() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/d-widget-before.png" alt="The original theme control widget, covering most of the screen" />
+              <img src={asset('img/d-widget-before.png')} alt="The original theme control widget, covering most of the screen" />
               <figcaption>The original widget — bulky and not very informative.</figcaption>
             </figure>
           </div>
@@ -114,7 +115,7 @@ export default function CaseDemo() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/d-navigation.png" alt="Demo navigation modeled on the Zendesk interface" />
+              <img src={asset('img/d-navigation.png')} alt="Demo navigation modeled on the Zendesk interface" />
               <figcaption>Navigation modeled on Zendesk — no learning curve.</figcaption>
             </figure>
           </div>
@@ -128,7 +129,7 @@ export default function CaseDemo() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/d-customization.gif" alt="Sped-up GIF showing how quickly a theme can be customized" />
+              <img src={asset('img/d-customization.gif')} alt="Sped-up GIF showing how quickly a theme can be customized" />
               <figcaption>A slice of the GIF — how fast a theme comes together.</figcaption>
             </figure>
           </div>
@@ -143,7 +144,7 @@ export default function CaseDemo() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/d-extensions.png" alt="Extensions tab with descriptions and add-to-cart, plus in-demo chat" />
+              <img src={asset('img/d-extensions.png')} alt="Extensions tab with descriptions and add-to-cart, plus in-demo chat" />
               <figcaption>Add-ons with clear value and a one-click path to cart.</figcaption>
             </figure>
           </div>
@@ -180,7 +181,7 @@ export default function CaseDemo() {
               </div>
             </div>
             <figure className="fig" style={{ marginBottom: 0, marginTop: 28 }}>
-              <img src="/img/d-results.png" alt="Growth in sales-team leads after the demo redesign" style={{ borderColor: 'rgba(236,238,241,.18)' }} />
+              <img src={asset('img/d-results.png')} alt="Growth in sales-team leads after the demo redesign" style={{ borderColor: 'rgba(236,238,241,.18)' }} />
             </figure>
           </div>
 

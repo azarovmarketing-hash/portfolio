@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { asset } from '../lib/asset.js'
 import Nav from '../components/Nav.jsx'
 import Footer from '../components/Footer.jsx'
 import { usePageEffects } from '../hooks.js'
@@ -90,7 +91,7 @@ export default function Home() {
               <Link to="/case/zendesk" className="work-card reveal">
                 <div className="work-card__media">
                   <span className="work-card__chip"><span className="up">+22%</span> auto-sales</span>
-                  <img src="/img/z-theme-card.png" alt="Zendesk theme product page redesign" />
+                  <img src={asset('img/z-theme-card.png')} alt="Zendesk theme product page redesign" />
                 </div>
                 <div className="work-card__body">
                   <span className="work-card__idx">CASE 01 / Lotus Themes · B2B SaaS</span>
@@ -108,7 +109,7 @@ export default function Home() {
               <Link to="/case/demo" className="work-card reveal">
                 <div className="work-card__media">
                   <span className="work-card__chip"><span className="up">+40%</span> sales leads</span>
-                  <img src="/img/d-extensions.png" alt="Zendesk theme demo redesign" />
+                  <img src={asset('img/d-extensions.png')} alt="Zendesk theme demo redesign" />
                 </div>
                 <div className="work-card__body">
                   <span className="work-card__idx">CASE 02 / Lotus Themes · B2B</span>
@@ -126,7 +127,7 @@ export default function Home() {
               <Link to="/case/sushi" className="work-card reveal">
                 <div className="work-card__media">
                   <span className="work-card__chip"><span className="up">+44%</span> orders</span>
-                  <img src="/img/s-conversion.png" alt="Asian cuisine delivery conversion growth" />
+                  <img src={asset('img/s-conversion.png')} alt="Asian cuisine delivery conversion growth" />
                 </div>
                 <div className="work-card__body">
                   <span className="work-card__idx">CASE 03 / Asian-cuisine chain · B2C</span>
@@ -224,7 +225,7 @@ export default function Home() {
                 <p>I also love writing music on synthesizers, digging into their interfaces, and catching inspiration from them.</p>
               </div>
               <figure className="beyond__media reveal" data-d="1">
-                <img src="/img/hackathon.png" alt="Presenting an app at the Batumi design hackathon" />
+                <img src={asset('img/hackathon.png')} alt="Presenting an app at the Batumi design hackathon" />
                 <figcaption className="beyond__cap">Presenting our app for finding the right crowd for a party — Batumi hackathon.</figcaption>
               </figure>
             </div>

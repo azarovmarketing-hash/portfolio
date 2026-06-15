@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { asset } from '../lib/asset.js'
 import CaseShell from '../components/CaseShell.jsx'
 import { usePageEffects } from '../hooks.js'
 
@@ -25,7 +26,7 @@ export default function CaseZendesk() {
       </section>
 
       <figure className="case-cover container reveal">
-        <img src="/img/z-design-system.png" alt="The Zendesk theme design system: darken/lighten logic, spacing scale, typography and surfaces" />
+        <img src={asset('img/z-design-system.png')} alt="The Zendesk theme design system: darken/lighten logic, spacing scale, typography and surfaces" />
       </figure>
 
       <div className="container">
@@ -81,7 +82,7 @@ export default function CaseZendesk() {
               </div>
             </div>
             <figure className="fig bleed reveal">
-              <img src="/img/z-discovery.jpg" alt="Discovery research materials and analysis" />
+              <img src={asset('img/z-discovery.jpg')} alt="Discovery research materials and analysis" />
               <figcaption>Reverse-design research — analyzing real client help centers.</figcaption>
             </figure>
           </div>
@@ -100,7 +101,7 @@ export default function CaseZendesk() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/z-competitors.png" alt="Competitor research, lost clients, and the prioritized feature list" />
+              <img src={asset('img/z-competitors.png')} alt="Competitor research, lost clients, and the prioritized feature list" />
               <figcaption>Competitor research, lost clients, and the feature list with prioritization.</figcaption>
             </figure>
           </div>
@@ -121,14 +122,14 @@ export default function CaseZendesk() {
             <h3 style={{ maxWidth: 1000, marginInline: 'auto' }}>Static &amp; user tokens</h3>
             <p style={{ maxWidth: '62ch' }}>To separate the variables exposed in settings from the ones used internally, we created two token types. Some can be changed in settings to recolor elements; the others stay static for elements that should never change color.</p>
             <figure className="fig reveal">
-              <img src="/img/z-tokens.png" alt="Static and user-editable tokens in the design system" />
+              <img src={asset('img/z-tokens.png')} alt="Static and user-editable tokens in the design system" />
               <figcaption>Two token types — user-editable vs. static.</figcaption>
             </figure>
 
             <h3 style={{ maxWidth: 1000, marginInline: 'auto' }}>Elements that adjust automatically</h3>
             <p style={{ maxWidth: '62ch' }}>So users don't have to set each parameter by hand, we created tokens generated automatically from a single source value — for example, the corner radius for inner and outer elements derived from one input.</p>
             <figure className="fig reveal">
-              <img src="/img/z-auto-tokens.png" alt="Tokens that auto-generate from a single source value" />
+              <img src={asset('img/z-auto-tokens.png')} alt="Tokens that auto-generate from a single source value" />
               <figcaption>One input, many derived values — less to configure.</figcaption>
             </figure>
           </div>
@@ -142,7 +143,7 @@ export default function CaseZendesk() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/z-layout.png" alt="Layout variability options in the theme" />
+              <img src={asset('img/z-layout.png')} alt="Layout variability options in the theme" />
               <figcaption>Content offsets and alternate block displays create range from one system.</figcaption>
             </figure>
           </div>
@@ -157,7 +158,7 @@ export default function CaseZendesk() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/z-errors.png" alt="Guardrail logic clamping extreme setting values" />
+              <img src={asset('img/z-errors.png')} alt="Guardrail logic clamping extreme setting values" />
               <figcaption>Smart clamps keep any combination of settings looking intentional.</figcaption>
             </figure>
           </div>
@@ -172,7 +173,7 @@ export default function CaseZendesk() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/z-settings.png" alt="The theme settings panel tested for usability" />
+              <img src={asset('img/z-settings.png')} alt="The theme settings panel tested for usability" />
               <figcaption>The settings we tested for clarity and ease of use.</figcaption>
             </figure>
             <p style={{ maxWidth: '62ch' }}>Based on feedback, we refined some setting descriptions and removed an extra layer of abstraction for the background — users didn't understand what it controlled, and it complicated customization. Instead of a third layer, we used a fixed gray that passes contrast checks on both light and dark backgrounds, with nothing to configure.</p>
@@ -187,13 +188,13 @@ export default function CaseZendesk() {
               </div>
             </div>
             <figure className="fig reveal">
-              <img src="/img/z-theme-card.png" alt="Redesigned theme product page focused on simple customization" />
+              <img src={asset('img/z-theme-card.png')} alt="Redesigned theme product page focused on simple customization" />
               <figcaption>The redesigned product page, leading with simplicity.</figcaption>
             </figure>
             <p style={{ maxWidth: '62ch' }}>After launch, the card's heatmap improved — users viewed more information and engaged with it more. Add-to-cart sessions, and then leads, increased.</p>
             <div className="fig-row reveal">
-              <figure className="fig"><img src="/img/z-scroll.png" alt="Scroll/heatmap improvement after launch" /><figcaption>Scroll &amp; engagement on the card improved.</figcaption></figure>
-              <figure className="fig"><img src="/img/z-leads.png" alt="Leads growth after launch" /><figcaption>Add-to-cart sessions and leads went up.</figcaption></figure>
+              <figure className="fig"><img src={asset('img/z-scroll.png')} alt="Scroll/heatmap improvement after launch" /><figcaption>Scroll &amp; engagement on the card improved.</figcaption></figure>
+              <figure className="fig"><img src={asset('img/z-leads.png')} alt="Leads growth after launch" /><figcaption>Add-to-cart sessions and leads went up.</figcaption></figure>
             </div>
           </div>
 

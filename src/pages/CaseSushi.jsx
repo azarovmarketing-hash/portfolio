@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { asset } from '../lib/asset.js'
 import CaseShell from '../components/CaseShell.jsx'
 import { usePageEffects } from '../hooks.js'
 
@@ -25,7 +26,7 @@ export default function CaseSushi() {
       </section>
 
       <figure className="case-cover container reveal">
-        <img src="/img/s-results.png" alt="Analytics showing growth in conversion and sales from search" />
+        <img src={asset('img/s-results.png')} alt="Analytics showing growth in conversion and sales from search" />
       </figure>
 
       <div className="container">
@@ -108,8 +109,8 @@ export default function CaseSushi() {
           </div>
 
           <div className="fig-row reveal">
-            <figure className="fig"><img src="/img/s-conversion.png" alt="Weekly conversion rising after the redesign" /><figcaption>Conversion climbing week over week after launch.</figcaption></figure>
-            <figure className="fig"><img src="/img/s-orders.png" alt="Order volume growth from search" /><figcaption>Order volume from search, trending up.</figcaption></figure>
+            <figure className="fig"><img src={asset('img/s-conversion.png')} alt="Weekly conversion rising after the redesign" /><figcaption>Conversion climbing week over week after launch.</figcaption></figure>
+            <figure className="fig"><img src={asset('img/s-orders.png')} alt="Order volume growth from search" /><figcaption>Order volume from search, trending up.</figcaption></figure>
           </div>
 
         </div>
